@@ -1,6 +1,6 @@
-@url = http://localhost:8080
+@url = https://8080-victorkashi-javacrudtra-vlnbo33jnj8.ws-us116.gitpod.io
 
-@token =
+@token = 
 
 ###
 GET {{url}}/tarefas

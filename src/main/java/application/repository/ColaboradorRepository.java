@@ -6,6 +6,4 @@ import application.model.Colaborador;
 
 public interface ColaboradorRepository extends JpaRepository<Colaborador, Long>{
     
-    public Colaborador findByNomeDeColaborador(String nome);
-
 }

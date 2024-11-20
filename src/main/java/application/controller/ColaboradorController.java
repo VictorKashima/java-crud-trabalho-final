@@ -12,11 +12,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import application.record.ColaboradorDTO;
 import application.service.ColaboradorService;
-import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 
 @RestController
 @RequestMapping("colaboradores")
-@SecurityRequirement(name = "bearer-key")
 public class ColaboradorController {
 
     @Autowired

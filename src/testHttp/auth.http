@@ -1,5 +1,4 @@
-@url = http://localhost:8080
-
+@url = https://8080-victorkashi-javacrudtra-vlnbo33jnj8.ws-us116.gitpod.io
 POST {{url}}/auth
 Content-Type: application/json
 
